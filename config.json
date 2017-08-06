@@ -1,0 +1,16 @@
+{
+	"serverPort":8080,
+	"autoprefix": "http:/localhost:8080",
+	"cookieSecret":"64u8nNvHt6gj",
+	"db":{
+        "name":"dbtodo",
+        "port":27017,
+        "host": "localhost"
+    },
+	"development":{
+		"connectString": "mongodb://localhost:27017/dbtodo"
+	},
+	"production":{
+		"connectString": ""
+	}
+}
